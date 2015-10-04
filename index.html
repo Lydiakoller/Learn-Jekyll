@@ -3,20 +3,23 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
+		<section class="site-section site-section-last">
+		<div class="wrapper">
+			<h1>Latest Articles</h1>
+			<ul class="post-list">
+				<li class="post">
+				<h2>post title</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat, dui a commodo egestas, sem sapien commodo nisi, et tempor purus leo sed felis. Mauris vitae eros ut nisi pulvinar cursus. Etiam porta libero sed mi tincidunt, vel vestibulum justo tempor. Proin at auctor nunc. Nulla a sodales tortor, non malesuada felis. In tempor, massa quis mollis semper, ante eros eleifend lorem, et sollicitudin lorem mauris aliquet metus. Donec tortor erat, semper ac laoreet laoreet, congue tempus sapien. Nullam molestie diam at sapien placerat ornare. Sed ornare enim at nibh accumsan, sed vestibulum massa laoreet.
+					</p>
+					<p class="post-read-more-link">
+						<a href="#">read more...</a>
+					</p>
+				</li>
+			</ul>
+		</div>
+		</section>
+		<section class="site-section site-section-last">
+		<section class="site-section site-section-last">
 
 </div>
