@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Ire quo quoque resque"
+title: "Project 3"
 date:   2015-09-25 09:27:50
 categories: project
 featured: true
+featured_image:  "images/project.png"
 tags: design
 ---
 
@@ -16,6 +17,8 @@ fluitque adacto Phoebes captivis adeunda inhaeserat tibi erubuit *velate*
 exhortantur veluti etiam quam inventos.
 
 - Auro in sublime harum sine demissam postquam
+h
+
 - Simul igne si repulsae naides ora frustraque
 - Cerealia atque quamvis
 - Os caelum est lacertis a partes mei
