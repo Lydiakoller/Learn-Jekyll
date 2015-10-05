@@ -4,7 +4,7 @@ title:  "Project 1"
 date:   2015-09-26 09:27:50
 categories: project
 tags: inspiration
-featured_image:  "images/project.png"
+featured_image:  "/images/project.png"
 ---
 uvenes his vidi
 
