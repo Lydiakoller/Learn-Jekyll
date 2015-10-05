@@ -3,14 +3,14 @@ layout: default
 ---
 
 <div class="home">
-		<section class="site-section site-section-last">
+		<section class="site-section">
 		<div class="wrapper">
 			<h1>Featured Article</h1>
             {% assign count = 0 %}
                 {% for post in site.posts reversed %}
                     {% if post.featured == true and count < 1 %}
                         <div class="post post-featured">
-                            {% post.html %}
+                            {% include post.html %}
                         </div>
                         {% assign count = count | plus: 1 %}
                     {% endif %}
@@ -23,9 +23,9 @@ layout: default
 			<ul class="post-list">
                 {% for post in site.posts reversed | limit:4 %}
                     <li class="post">
-                        {% post.html %}
+                        {% include post.html %}
                     </li>
-                    {% endfor %}
+                {% endfor %}
 			</ul>
 		</div>
 		</section>

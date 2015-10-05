@@ -3,6 +3,7 @@ layout: post
 title:  "Et Bella"
 date:   2015-09-26 09:27:50
 categories: jekyll update
+tags: snippet
 ---
 uvenes his vidi
 

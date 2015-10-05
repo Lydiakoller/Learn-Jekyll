@@ -4,6 +4,7 @@ title:  "Ire quo quoque resque"
 date:   2015-09-25 09:27:50
 categories: jekyll update
 featured: true
+tags: design
 ---
 
 ## Tum meo procul huius
