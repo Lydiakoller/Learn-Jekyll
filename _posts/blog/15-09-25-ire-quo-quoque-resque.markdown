@@ -2,7 +2,7 @@
 layout: post
 title:  "Ire quo quoque resque"
 date:   2015-09-25 09:27:50
-categories: jekyll update
+categories: blog
 featured: true
 tags: design
 ---

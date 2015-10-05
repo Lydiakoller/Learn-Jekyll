@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Et Bella 4"
+title:  "Et Bella"
 date:   2015-09-26 09:27:50
-categories: jekyll update
-tags: code layout
+categories: blog
+tags: snippet
 ---
 uvenes his vidi
 

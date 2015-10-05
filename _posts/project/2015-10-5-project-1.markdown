@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Et Bella"
+title:  "Et Bella 2"
 date:   2015-09-26 09:27:50
-categories: jekyll update
-tags: snippet
+categories: project
+tags: inspiration
 ---
 uvenes his vidi
 
