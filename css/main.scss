@@ -6,12 +6,12 @@
 
 
 // Our variables
-$base-font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+$base-font-family: 'Amiri', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$mega-font-size: 100px;
+$mega-font-size: 90px;
 $h1-font-size: 70px;
 $h2-font-size: 40px;
 $h3-font-size: 30px;
@@ -20,7 +20,6 @@ $h4-font-size: 24px;
 $spacing-unit:     30px;
 
 $text-color:       #333;
-$background-color: #fefef3;
 $brand-color:      #fe5f55;
 
 $blue-color: #92b5bd;
@@ -30,13 +29,17 @@ $purple-color: #6b2339;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
+$grey-color-lightish: lighten($grey-color, 5%);
 $grey-color-dark:  darken($grey-color, 25%);
+$grey-color-darkest:  darken($grey-color, 35%);
+
+$background-color: lighten($grey-color, 60%);
 
 // Width of the content area
-$content-width:    1200opx;
+$content-width: 1200px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$on-palm: 600px;
+$on-laptop: 800px;
 
 
 
@@ -60,7 +63,5 @@ $on-laptop:        800px;
         "base",
         "layout",
         "syntax-highlighting",
-		"gradient-bar",
-        "components/post",
-        "components/project"
+        "components/post"
 ;

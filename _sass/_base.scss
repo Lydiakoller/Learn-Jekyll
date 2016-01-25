@@ -48,6 +48,10 @@ img {
     vertical-align: middle;
 }
 
+.logo{
+    margin-bottom: -15px;
+}
+
 
 
 /**
@@ -102,7 +106,7 @@ a {
 	transition: 0.3s;
 
     &:hover {
-        color: $blue-color;
+        color: $grey-color;
         text-decoration: underline;
     }
 }
@@ -187,6 +191,10 @@ pre {
         display: table;
         clear: both;
     }
+}
+
+.date {
+    font-size: 15px;
 }
 
 
