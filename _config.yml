@@ -3,7 +3,7 @@ title: Shorthand Sketch
 email: lydiakoller1@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     The written and drawn collaborations of two siblings.  
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/shorthandsketch" # the subpath of your site, e.g. /blog/
 url: "http://lydiakoller.com" # the base hostname & protocol for your site
 github_username:  Lydiakoller
 instagram_username: shorthandsketch
