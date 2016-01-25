@@ -2,7 +2,7 @@
         <div class='title-area'>
             <img class="logo" src="/images/sslogo_larger.png" alt="">
             <h1 class="site-title mega">
-                <a href="/">Shorthand Sketch</a>
+                <a href="{{ site.baseurl }}">Shorthand Sketch</a>
             </h1>
             <p> Writing & Illustration Collaboration </p>
         </div>
@@ -10,7 +10,7 @@
     <nav class="site-nav" style="">
         <ul> {% for link in site.links %}
                 <li>
-                    <a href="{{ link.url }}"><span> {{ link.title }} </span></a>
+                    <a href="{{ site.baseurl }}{{link.url }}"><span> {{ link.title }} </span></a>
                 </li>
             {% endfor %}
             <li class='fixed-only'><p><span>Shorthand Sketch</span></p></>
