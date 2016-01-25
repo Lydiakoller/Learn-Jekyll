@@ -1,25 +1,23 @@
 # Site settings
-title: Web Development & Illustration
+title: Shorthand Sketch
 email: lydiakoller1@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Full stack ruby on rails web developer and freelance illustrator.
+    The written and drawn collaborations of two siblings.  
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lydiakoller.com" # the base hostname & protocol for your site
-twitter_username: lydiakoller
 github_username:  Lydiakoller
-instagram_username: iforgotmyeverything
+instagram_username: shorthandsketch
 
 permalink: /:categories/:title
 
 links:
- - title: about
+ - title: Home
+   url: /
+ - title: About
    url: /about
- - title: work
-   url: /work
- - title: articles
-   url: /articles
- - title: hire me
-   url: /hire-me
 
 # Build settings
 markdown: kramdown
+
+gems:
+- jekyll-coffeescript 
