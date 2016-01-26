@@ -16,6 +16,9 @@
 			display:inline-block;
 			margin: 0 0.5em;
 			font-size: 1.5em;
+        @media screen and (max-width: $on-palm) {
+			font-size: 1.2em;
+        }
 	}
     span {
         vertical-align: middle;
@@ -28,6 +31,27 @@
       padding-right: 12px;
       padding-left: 10px;
       margin: 0;
+      p {
+          margin: 1px;
+          @media screen and (max-width: $on-palm) {
+                  display: none;
+          }
+      }
+    }
+    li.fixed-logo {
+      color: #fff;
+      background-color: #444;
+      float: right;
+      padding-right: 12px;
+      padding-left: 10px;
+      margin: 0;
+      img {
+          @media screen and (max-width: $on-palm) {
+                  max-width: 87%;
+                  padding-right: 0px;
+                  padding-left: 6px;
+          }
+      }
     }
 }
 nav.fixed {
@@ -40,6 +64,11 @@ nav.fixed {
 }
 .site-title{
     margin-bottom: -35px;
+    @media screen and (max-width: $on-palm) {
+            font-size: $h1-font-size / 2;
+            margin-top: 10px;
+            margin-bottom: -15px;
+    }
 }
 .site-title a{
     color: #333;

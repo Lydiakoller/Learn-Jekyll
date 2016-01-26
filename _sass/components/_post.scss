@@ -6,7 +6,10 @@
     float:left;
     width:50%;
     padding: 0 3em 1em;
-
+    @media screen and (max-width: $on-palm) {
+            float: none;
+            width:100%;
+    }
     &:nth-child(odd){
         clear:both;
     }
@@ -32,6 +35,9 @@
 }
 .post-title{
     margin:0;
+    @media screen and (max-width: $on-palm) {
+        font-size: 35px;
+    }
 }
 .post-meta{
     color: $blue-color;
