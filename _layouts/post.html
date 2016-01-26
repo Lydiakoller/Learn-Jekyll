@@ -8,11 +8,7 @@ layout: default
             posted on
             {{ page.date | date: "%b %-d, %Y" }}
         </p>
-        {% if page.featured_image %}
-        <div class="post-image">
-            <img src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
-        </div>
-        {% endif %}
+        <img src="/images/{{ page.title }}_large.png" alt="{{ tag }}">
     </header>
     <div class="post-body">
         {{ content }}
