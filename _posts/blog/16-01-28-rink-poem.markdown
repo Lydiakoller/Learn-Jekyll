@@ -19,6 +19,6 @@ blew strongest, we’d step in the slush to freeze
 our boots in place, kept from blowing away.  
     
 Now old, a part of me, or most  
-Has fixed itself there and looks  
+has fixed itself there and looks  
 upstream and down almost exactly  
 as far as ever.  
