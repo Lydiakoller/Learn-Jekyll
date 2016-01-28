@@ -35,9 +35,13 @@
 }
 .post-title{
     margin:0;
+    font-size: 45px;
     @media screen and (max-width: $on-palm) {
         font-size: 35px;
     }
+}
+.about{
+    margin-bottom: 20px;
 }
 .post-meta{
     color: $grey-color;
@@ -53,3 +57,9 @@
     }
 }
 
+.about-content{
+    float:left;
+    margin-right: 30px;
+    margin-left: 83px;
+    font-size: 19px;
+}

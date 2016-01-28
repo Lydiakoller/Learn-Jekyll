@@ -3,14 +3,15 @@ layout: default
 ---
 <article class="site-section site-section-last">
     <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-        {% if page.featured_image %}
-        <div class="post-image">
-            <img src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
-        </div>
-        {% endif %}
+        <h1 class="post-title about">{{ page.title }}</h1>
     </header>
     <div class="post-body">
-        {{ content }}
+        <div class="about-content">
+            {{ content }}
+        </div>
+        <div class="post-image">
+            <img style="margin-bottom: 20px;" src="/images/ben_about.png" alt="{{ page.title }} featured image">
+            <img style="" src="/images/lydia_about.png" alt="{{ page.title }} featured image">
+        </div>
     </div>
 </article>
